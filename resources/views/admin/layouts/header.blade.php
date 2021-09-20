@@ -1,4 +1,3 @@
-
 <header class="top-header">        
     <nav class="navbar navbar-expand gap-3">
       <div class="mobile-toggle-icon fs-3">

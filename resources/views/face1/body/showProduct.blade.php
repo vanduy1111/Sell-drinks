@@ -32,6 +32,7 @@
             margin-right: 25px;
        
             padding: 10px 0px;
+         
 text-align: center;
 
             transition: all 0.5s;
@@ -141,24 +142,8 @@ text-align: center;
         .name-factory{
     
         }
-        .soft-category select{
-            width: 20%;
-            float: right;
-          
-       margin-right: 3%;
-
-      
-        }
-        .soft-category{
-            padding: 20px 20px;
-          
-        }
-        .soft-category span{
-            margin-right: 4px;
-            float: left;
-            display: inline-block;
-            font-size: 20px;
-        }
+    
+    
         .count-product{
             font-weight: 700;
         }
@@ -170,99 +155,7 @@ text-align: center;
         .product-details span i{
             margin-right: 4px;
         }
-
-
-    </style>
-    <div class="showproduct">
-    
-        <div class="buy-product">
-            <div class="info-category-page">
-                <div class="info-category">
-                    <span class="name-category">Điện thoại <span class="name-factory"> xiaomi</span></span>
-                  
-                </div>
-                <div class="soft-category">
-                    <span ><span class="count-product"> 8 </span> devices found</span>
-                  
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-            </div>
-            <div class="product-info">
-                <div class="product-all">
-                    <a href=""> <img src="{{ asset('../public/images/product.png' ) }}" alt=""></a>
-                   <div class="product-action">
-                   
-                    <a href=""> <i class="fas fa-search-plus"></i></a>
-                    <a href=""><i class="fas fa-heart"></i></a>
-                    <a href=""><i class="fas fa-shopping-cart"></i></a>
-                   </div>
-                </div>
-                <div class="product-details">
-                    <span>Jack Daniel’s Old</span>
-                    <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                    <span>$500</span>
-                </div>
-                </div>
-                <div class="product-info">
-                    <div class="product-all">
-                        <a href=""> <img src="{{ asset('../public/images/product.png' ) }}" alt=""></a>
-                       <div class="product-action">
-                       
-                        <a href=""> <i class="fas fa-search-plus"></i></a>
-                        <a href=""><i class="fas fa-heart"></i></a>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                       </div>
-                    </div>
-                    <div class="product-details">
-                        <span>Jack Daniel’s Old</span>
-                        <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                        <span>$500</span>
-                    </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-all">
-                            <a href=""> <img src="{{ asset('../public/images/product.png' ) }}" alt=""></a>
-                           <div class="product-action">
-                           
-                            <a href=""> <i class="fas fa-search-plus"></i></a>
-                            <a href=""><i class="fas fa-heart"></i></a>
-                            <a href=""><i class="fas fa-shopping-cart"></i></a>
-                           </div>
-                        </div>
-                        <div class="product-details">
-                            <span>Jack Daniel’s Old</span>
-                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                            <span>$500</span>
-                        </div>
-                        </div>
-                        <div class="product-info">
-                            <div class="product-all">
-                                <a href=""> <img src="{{ asset('../public/images/product.png' ) }}" alt=""></a>
-                               <div class="product-action">
-                               
-                                <a href=""> <i class="fas fa-search-plus"></i></a>
-                                <a href=""><i class="fas fa-heart"></i></a>
-                                <a href=""><i class="fas fa-shopping-cart"></i></a>
-                               </div>
-                            </div>
-                            <div class="product-details">
-                                <span>Jack Daniel’s Old</span>
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                                <span>$500</span>
-                            </div>
-                            </div>
-                          <div class="add-product">
-                            <button>1</button>
-                          </div>
-
-        </div>
-        <style>
-            .menu-categories{
+        .menu-categories{
                 width: 23%;
                 margin-top: 90px;
                 float: left;
@@ -305,7 +198,159 @@ text-align: center;
             background-color: white;
             transform: translateX(-40px)
           }
-        </style>
+.get-product-category{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 1%;
+
+}
+.checkbox{
+
+    display: inline-block;
+    margin-left: 10px;
+}
+.product-soft {
+            width: 100%;
+  margin-left: 10px;
+          text-align: left;
+       margin-right: 3%;
+       float: left;
+margin-bottom: 45px;
+     
+        }
+        .product-soft h5
+        {
+padding: 10px 0px;
+        }
+        
+        .soft-category{
+         
+            padding: 20px 20px;
+   
+          
+        }
+    </style>
+    <div class="showproduct">
+    
+        <div class="buy-product">
+            <div class="info-category-page">
+                <div class="info-category">
+                    <span class="name-category">Rượu <span class="name-factory"> Qisky</span></span>
+                    <span ><span class="count-product"> 8 </span> devices found</span>
+                  
+                </div>
+                <div class="soft-category">
+                
+                    <div class="get-product-category">
+                        <h5>Lọc theo danh mục</h5>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     <div class="checkbox">
+                        <input type="checkbox" value="">
+                        <label for="">checkbox</label>
+                   
+                     </div>
+                     
+                    </div>
+                <div class="product-soft">
+                   <div class="soft-select">
+                    <h5>Lọc theo giá</h5>
+                    <select >
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                   </div>
+                    <div class="">
+
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-all">
+                    <a href=""> <img src="{{ asset('../public/images/product.png' ) }}" alt=""></a>
+                   <div class="product-action">
+                   
+                    <a href=""> <i class="fas fa-search-plus"></i></a>
+                    <a href=""><i class="fas fa-heart"></i></a>
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                   </div>
+                </div>
+                <div class="product-details">
+                    <span>Jack Daniel’s Old</span>
+                    <span>
+                        @for($i=1;$i<=5;$i++)
+                        <i  id="stars-{{$i}}" data-stars="{{$i}}" class="stars fas fa-star"></i>
+                        @endfor
+                    </span>
+                    <span  >$500</span>
+                </div>
+                </div>
+                <script>
+                    $(".stars").on('mouseenter', function(){
+                var stars = $(this).data("stars");
+                
+                for(var i = 1; i <= stars; i++){
+                $("#stars-"+ i).css("color","orange");
+                
+           
+                }
+                    });
+
+                    $(".stars").on('mouseleave', function(){
+                var stars = $(this).data("stars");
+                
+                for(var i = 1; i <= stars; i++){
+                $("#stars-"+ i).css("color","#212529");
+                
+                console.log("#stars-"+ i)
+                }
+                    });
+                </script>
+             
+                          <div class="add-product">
+                            <button>1</button>
+                          </div>
+
+        </div>
+      
         <div class="menu-categories">
 <h2>Categories <span> - </span></h3>
     <form action="" id="search-product">
@@ -368,9 +413,12 @@ text-align: center;
 
 </div>
         </div>
-
-        
     </div>
-  
+   <div style="width: 100%;height: 100px; clear: both;">
+
+   </div>
+  <div style="width: 100%;border-bottom: 2px solid black;margin-top: 20px;;clear: both;">
+
+  </div>
 
 @endsection

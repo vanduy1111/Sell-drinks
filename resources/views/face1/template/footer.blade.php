@@ -3,7 +3,7 @@
     .info-page{
     
         border-top: 1px solid white;
-        margin-top: 50px;
+     
             width:100%;
             margin-left: 0%;
             height: auto;

@@ -18,8 +18,10 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [ShowProductController::class, 'home'])->name('showproduct');
-Route::get('admin', [ShowProductController::class, 'admin']);
+
 Route::get('product/categories/{id}', [ShowProductController::class, 'productCategories'])->name('product-categories');
 Route::get('product/brands/{id}', [ShowProductController::class, 'productBrands'])->name('product-Brands');
 
-Route::get('/Admin', [manageProductController::class, 'showproduct']);
+Route::get('/admin', [manageProductController::class, 'showproduct']);
+
+Route::get('/productlist', [manageProductController::class, 'showproductlist']);

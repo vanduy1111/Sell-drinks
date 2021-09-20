@@ -46,16 +46,16 @@ Trang chủ
     </style>
     <div class="slider-page">
         <li class="slide">
-            <img src="{{ asset('../public/images/slider1.png') }}" alt="">
+            <img src="{{ asset('/images/slider1.png') }}" alt="">
         </li>
         <li class="slide">
-            <img src="{{ asset('../public/images/slider1.png') }}" alt="">
+            <img src="{{ asset('/images/slider1.png') }}" alt="">
         </li>
         <li class="slide">
-            <img src="{{ asset('../public/images/slider1.png') }}" alt="">
+            <img src="{{ asset('/images/slider1.png') }}" alt="">
         </li>
         <li class="slide">
-            <img src="{{ asset('../public/images/slider1.png') }}" alt="">
+            <img src="{{ asset('/images/slider1.png') }}" alt="">
         </li>
     </div>
     <style>
@@ -510,27 +510,27 @@ Trang chủ
                     <span>world of other drinks in this category with just one click.</span>
                     <div class="show-category">
                         <div class="info-category">
-                            <img src="{{ asset('../public/images/1.png') }}" alt="">
+                            <img src="{{ asset('/images/1.png') }}" alt="">
                             <span>Vodka</span>
                         </div>
                         <div class="info-category">
-                            <img src="{{ asset('../public/images/2.png') }}" alt="">
+                            <img src="{{ asset('/images/2.png') }}" alt="">
                             <span>Cognac</span>
                         </div>
                         <div class="info-category">
-                            <img src="{{ asset('../public/images/3.png') }}" alt="">
+                            <img src="{{ asset('/images/3.png') }}" alt="">
                             <span>Grappa</span>
                         </div>
                         <div class="info-category">
-                            <img src="{{ asset('../public/images/4.png') }}" alt="">
+                            <img src="{{ asset('/images/4.png') }}" alt="">
                             <span>Scotch</span>
                         </div>
                         <div class="info-category">
-                            <img src="{{ asset('../public/images/5.png') }}" alt="">
+                            <img src="{{ asset('/images/5.png') }}" alt="">
                             <span>Tequila</span>
                         </div>
                         <div class="info-category">
-                            <img src="{{ asset('../public/images/6.png') }}" alt="">
+                            <img src="{{ asset('/images/6.png') }}" alt="">
                             <span>Rum</span>
                         </div>
                     </div>
@@ -566,7 +566,7 @@ Trang chủ
                     </div>
                     <img style=" width: 62%;height: 450px;" src="{{ asset('../public/images/01.png') }}" alt="">
                     <div class="sale-product">
-                        <img src="{{ asset('../public/images/02.png') }}" alt="">
+                        <img src="{{ asset('/images/02.png') }}" alt="">
                         <div class="sale-info">
                             <h5>LOCALLY MADE</h5>
                             <span>Sale Now</span>
@@ -592,7 +592,20 @@ Trang chủ
                     <h5>New Arrivals</h5>
                     <div class="show-arrivals">
                         <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
+
+                        </div>
+                        <div>
+                            <span>Belasco Llma Cognac1</span>
+                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
+                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-arrivals">
+                        <div class="images-arrivals">
+                            <img src="{{ asset('/images/product1.png') }}" alt="">
 
                         </div>
                         <div>
@@ -605,7 +618,7 @@ Trang chủ
                     </div>
                     <div class="show-arrivals">
                         <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
 
                         </div>
                         <div>
@@ -618,76 +631,7 @@ Trang chủ
                     </div>
                     <div class="show-arrivals">
                         <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
-
-                        </div>
-                        <div>
-                            <span>Belasco Llma Cognac</span>
-                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
-                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i></span>
-                        </div>
-                    </div>
-                    <div class="show-arrivals">
-                        <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
-
-                        </div>
-                        <div>
-                            <span>Belasco Llma Cognac</span>
-                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
-                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i></span>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="info-arrivals">
-                    <h5>New Arrivals</h5>
-                    <div class="show-arrivals">
-                        <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
-
-                        </div>
-                        <div>
-                            <span>Belasco Llma Cognac</span>
-                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
-                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i></span>
-                        </div>
-                    </div>
-                    <div class="show-arrivals">
-                        <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
-
-                        </div>
-                        <div>
-                            <span>Belasco Llma Cognac</span>
-                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
-                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i></span>
-                        </div>
-                    </div>
-                    <div class="show-arrivals">
-                        <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
-
-                        </div>
-                        <div>
-                            <span>Belasco Llma Cognac</span>
-                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
-                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i><i class="far fa-star"></i><i
-                                    class="far fa-star"></i></span>
-                        </div>
-                    </div>
-                    <div class="show-arrivals">
-                        <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
 
                         </div>
                         <div>
@@ -704,7 +648,7 @@ Trang chủ
                     <h5>New Arrivals</h5>
                     <div class="show-arrivals">
                         <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
 
                         </div>
                         <div>
@@ -717,7 +661,63 @@ Trang chủ
                     </div>
                     <div class="show-arrivals">
                         <div class="images-arrivals">
-                            <img src="{{ asset('../public/images/product1.png') }}" alt="">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
+
+                        </div>
+                        <div>
+                            <span>Belasco Llma Cognac</span>
+                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
+                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-arrivals">
+                        <div class="images-arrivals">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
+
+                        </div>
+                        <div>
+                            <span>Belasco Llma Cognac</span>
+                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
+                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-arrivals">
+                        <div class="images-arrivals">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
+
+                        </div>
+                        <div>
+                            <span>Belasco Llma Cognac</span>
+                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
+                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-arrivals">
+                    <h5>New Arrivals</h5>
+                    <div class="show-arrivals">
+                        <div class="images-arrivals">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
+
+                        </div>
+                        <div>
+                            <span>Belasco Llma Cognac</span>
+                            <span style="color: #c27b43;font-size: 20px;display: inline;">$500</span>
+                            <span><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-arrivals">
+                        <div class="images-arrivals">
+                            <img src="{{ asset('/images/product.png') }}" alt="">
 
                         </div>
                         <div>

@@ -33,7 +33,16 @@
         <ul>
           <li> <a href="app-emailbox.html"><i class="bi bi-circle"></i>Email</a>
           </li>
-       
+          <li> <a href="app-chat-box.html"><i class="bi bi-circle"></i>Chat Box</a>
+          </li>
+          <li> <a href="app-file-manager.html"><i class="bi bi-circle"></i>File Manager</a>
+          </li>
+          <li> <a href="app-to-do.html"><i class="bi bi-circle"></i>Todo List</a>
+          </li>
+          <li> <a href="app-invoice.html"><i class="bi bi-circle"></i>Invoice</a>
+          </li>
+          <li> <a href="app-fullcalender.html"><i class="bi bi-circle"></i>Calendar</a>
+          </li>
         </ul>
       </li>
       <li class="menu-label">UI Elements</li>
@@ -133,8 +142,45 @@
           </li>
         </ul>
       </li>
-    
-     
+      <li class="menu-label">Forms & Tables</li>
+      <li>
+        <a class="has-arrow" href="javascript:;">
+          <div class="parent-icon"><i class="bi bi-file-earmark-break-fill"></i>
+          </div>
+          <div class="menu-title">Forms</div>
+        </a>
+        <ul>
+          <li> <a href="form-elements.html"><i class="bi bi-circle"></i>Form Elements</a>
+          </li>
+          <li> <a href="form-input-group.html"><i class="bi bi-circle"></i>Input Groups</a>
+          </li>
+          <li> <a href="form-layouts.html"><i class="bi bi-circle"></i>Forms Layouts</a>
+          </li>
+          <li> <a href="form-validations.html"><i class="bi bi-circle"></i>Form Validation</a>
+          </li>
+          <li> <a href="form-wizard.html"><i class="bi bi-circle"></i>Form Wizard</a>
+          </li>
+          <li> <a href="form-date-time-pickes.html"><i class="bi bi-circle"></i>Date Pickers</a>
+          </li>
+          <li> <a href="form-select2.html"><i class="bi bi-circle"></i>Select2</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="has-arrow" href="javascript:;">
+          <div class="parent-icon"><i class="bi bi-file-earmark-spreadsheet-fill"></i>
+          </div>
+          <div class="menu-title">Tables</div>
+        </a>
+        <ul>
+          <li> <a href="table-basic-table.html"><i class="bi bi-circle"></i>Basic Table</a>
+          </li>
+          <li> <a href="table-advance-tables.html"><i class="bi bi-circle"></i>Advance Tables</a>
+          </li>
+          <li> <a href="table-datatable.html"><i class="bi bi-circle"></i>Data Table</a>
+          </li>
+        </ul>
+      </li>
       <li class="menu-label">Pages</li>
       <li>
         <a class="has-arrow" href="javascript:;">

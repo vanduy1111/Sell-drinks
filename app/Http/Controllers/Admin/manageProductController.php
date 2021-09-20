@@ -9,5 +9,8 @@ class manageProductController extends Controller
 {
     public function showproduct(){
 return view('admin/body/body');
-    }
+    } 
+    public function showproductlist(){
+        return view('admin/body/categories');
+            }
 }
